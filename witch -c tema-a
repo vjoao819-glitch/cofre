@@ -1,0 +1,21 @@
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/index.html b/index.html[m
+[1mindex bb5c004..db8ff34 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -15,6 +15,15 @@[m
+   </header>[m
+ [m
+   <main>[m
+[32m+[m[32m        <section class="ferramenta">[m
+[32m+[m[32m      <h2>Essa senha já vazou?</h2>[m
+[32m+[m[32m      <p class="explica">Calcula o SHA-1 da senha aqui no navegador e envia à API só os 5 primeiros caracteres do hash (k-anonimato). Use uma senha de exemplo.</p>[m
+[32m+[m[32m      <input id="vazou-senha" type="password" placeholder="Digite uma senha de exemplo" autocomplete="off">[m
+[32m+[m[32m      <button id="vazou-botao" type="button">Verificar</button>[m
+[32m+[m[32m      <p id="vazou-resultado" class="resultado"></p>[m
+[32m+[m[32m      <p id="vazou-detalhe" class="explica"></p>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <script src="vazou.js"></script>[m
+     <!-- FERRAMENTAS: cole cada trecho novo logo ACIMA desta linha -->[m
+   </main>[m
+ [m
